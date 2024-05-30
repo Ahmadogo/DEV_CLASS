@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roysha</title>
+    <link rel="stylesheet" href="./roysha.css">
 </head>
 <body>
     <header>
@@ -20,19 +21,19 @@
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <button id="bluebtn">Login</button>
+            <button id="bluebtn"><a href="#">Login</a></button>
         </nav>
-        <div>
-            <p>SIMPLE AND EASY WAY TO Transfer Money Across World In Real Time With No Charge Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptates ipsa earum quo rem ex quidem impedit, iste sit laudantium magnam libero, et iusto cum! Assumenda cumque laborum commodi quos.</p>
-        </div>
-        <button>Watch Video</button>
+        <div class="note">
+            <p>SIMPLE AND EASY WAY TO <h1>Transfer Money Across World In Real Time With No Charge</h1> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptates ipsa earum quo rem ex quidem impedit, iste sit laudantium magnam libero, et iusto cum! Assumenda cumque laborum commodi quos.</p>
+        <button id="Watch"><a href="#">Watch Video</a></button>
+    </div>
     </header>
     <main>
         <form action="#">
-            <p>Send Money</p>
+                <h2>Send Money</h2>
             <label for="#">Send Amount</label>
             <input type="text" placeholder="$1,000.00">
-            <select name="#" id="">
+            <select>
                 <option value="#">USD </option>
             </select>
             <br>
@@ -48,8 +49,8 @@
                 <option value="#"></option>
             </select>
             <br>
-            <button id="subtn">Continue transaction</button>
-            <p>By clicking Continue, i agree with <a href="#">Terms & Policy</a></p>
+            <button id="subtn"><a href="#">Continue transaction ➡</a> </button>
+            <p>By clicking Continue, i agree with <a href="#" id="trms">Terms & Policy</a></p>
         </form>
     </main>
 </body>
