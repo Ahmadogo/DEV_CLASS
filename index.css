@@ -40,7 +40,8 @@ a:focus{
 }
 #InputDiv{
     position: relative;
-}#InputDiv button{
+}
+#InputDiv button{
     position: absolute;
     right: 0.5px;
     background-color: var(--orange);
