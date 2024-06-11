@@ -1,0 +1,85 @@
+*{
+    border: 0;
+    background: fied;
+}
+:root{
+    --brown: rgb(242, 97, 97);
+}
+body{
+    width: 60%;
+    background-color: rgb(208, 222, 222);
+    font-size: 15px;
+    font-weight: 500;
+    font-family:sans-serif;
+}
+/* main{
+    margin-inline: 100%; */
+.girldevelop{
+    background-color: rgb(213, 52, 52);
+    width: 40%;
+    height: 80px;
+    margin-left: 40%;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+}
+.style{
+    font-size: small;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about p{
+    color:rgb(213, 52, 52); 
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.upclasses p, .signup p, .projects p{
+    color:rgb(203, 41, 41); 
+    font-size: 25px;
+    font-weight: 1000;
+    font-family: 'Times New Roman', Times, serif;
+}
+big{
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+table, tr, td, th, fieldset, textarea, button{
+    border: 1px solid black;
+    font-weight: 600;
+    
+}
+input{
+    background-color:rgb(255, 255, 255);
+    border-style: inset;
+    border: 1px solid rgb(237, 219, 213);
+    margin:2px;
+}
+form{
+    font-weight: 700;
+}
+button{
+    border-radius: 5px;
+}
+.projects{
+    border: 1px solid rgb(213, 119, 119);
+    width: 30%;
+    /* padding: 50px; */
+    margin-left: 100%;
+    margin-top: -55%;
+    background-color:rgb(252, 235, 235);
+    height: 55vh;
+}
+li{
+    list-style: circle;
+    margin: 10px;
+}
+.links{
+    text-align: center;
+}
+footer{
+    border-top: 3px dashed burlywood;
+    margin: 2em;
+}

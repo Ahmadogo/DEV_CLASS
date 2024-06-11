@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(230, 221, 221)
+}
+main{
+    display: flex;
+    /* margin-top: 5%; */
+    margin-left: 5%;
+}
+.container1{
+    background-color: rgb(4, 4, 182);
+    padding: 2rem;
+    padding-top: 10%;
+    width: 30%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+.container2{
+    background-color: white;
+    padding: 3rem;
+    width: 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    display: flex;
+    margin: 15px; 
+    padding: 10px;
+    width: 100%;
+    margin-left: -8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(230, 221, 221) ;
+    font-weight: 500;
+}
+.come{
+    font-size: larger;
+    font-weight: 600;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.signupbtn{
+    background-color: blue;
+    padding: 13px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.signinbtn{
+    padding: 12px;
+    width: 80%;
+    background-color: rgb(4, 4, 214);
+    color: white;
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cancel{
+    padding: 15px;
+    background-color: rgb(178, 173, 173);
+    width: 15px;
+    border: 1px solid ;
+    border-radius: 35px;
+    color: white;
+    font-size: xx-large;
+
+}
+p{
+    text-align: center;
+}
+.fa{
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(1, 1, 192);
+}
+.fa-google-plus-g{
+    background-color: red;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+}
+.fa-linkedin{
+    border: 1px solid;
+    background-color: rgb(85, 85, 222);
+    border-radius: 20px;
+    padding: 5px;
+}
+.footers{
+    justify-items: center;    
+}

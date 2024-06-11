@@ -1,0 +1,63 @@
+h1{
+    font-weight: 900;
+    text-align: center;
+}
+.me{
+    text-align: center;
+}
+.you{
+    color: white;
+}
+a{
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.signup{
+    background-color: rgba(255, 255, 255, 0.846);
+    width: 30%;
+    padding: 1rem;
+    position:absolute;
+    margin-top: 5px;
+    
+}
+/* .loginhere{
+    position: relative; 
+    margin-top: 50px;
+}
+.signuphere{
+     position: relative;
+    margin-top: -250px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+} */
+body{
+    background-color: rgb(45, 45, 62);
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.846);
+    width: 35%;
+    padding: 1rem;
+    margin-left: 40%;
+    position:relative;
+    margin-top: 0%;
+}
+button{
+    background-color: rgb(75, 205, 142);
+    padding: 8px;
+    border: none;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.him{
+    position: relative;
+    margin-bottom: 30%;
+}
