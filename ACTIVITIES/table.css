@@ -1,0 +1,40 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    background-color: rgb(235, 239, 242);
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table{
+    /* margin-top: 10%; */
+    border-collapse: collapse;
+    width: 70%;
+    /* padding: 20px 30px; */
+    background-color: rgb(224, 130, 131);
+    font-weight: 400;
+    /* font-size: 20px; */
+
+}
+th{
+    background-color: rgb(1, 0, 128);
+    font-weight: 700;
+    font-size: 25px;
+    padding: 10px 70px;
+    text-align: left;
+    color: white;
+}
+td{
+    font-size: 20px;
+    padding: 10px 70px;text-align: left;
+    font-size: 25px;
+    padding: 10px 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.white{
+    background-color: rgb(235, 2339, 242);
+
+}
