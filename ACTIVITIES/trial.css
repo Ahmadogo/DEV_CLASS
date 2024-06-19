@@ -1,0 +1,50 @@
+section{
+    height: 100vh;
+
+}
+
+.orange {
+    background-color: orange;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.blue {
+    background-color: blue;
+    padding: 15px;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+
+}
+
+.red {
+    background-color: red;
+    padding: 15px;
+    font-size: 30px;
+    /* position: ; */
+}
+
+.nav {
+    width: 100%;
+    background-color: aqua;
+    top: 0; 
+    position: fixed;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
