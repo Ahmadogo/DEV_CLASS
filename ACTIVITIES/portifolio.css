@@ -22,7 +22,7 @@ section {
 section div{
     position: sticky;
     top: 48px;
-
+    
 }
 a:hover{
     background-color: brown;
@@ -31,14 +31,16 @@ a:hover{
 }
 
 .nav {
-    /* background-color: aqua; */
-    background-image: url(https://clipground.com/images/cover-png-16.png);
+    background-color: aliceblue;
     width: 100%;
-    padding: 15px;
+    padding: 25px;
     position: fixed;
     top: 0;
     z-index: 1;
-    /* box-shadow: ; */
+    
+}
+fa-solid{
+    padding: 20px;
 }
 
 a {
@@ -55,58 +57,51 @@ ul {
 }
 
 .blue {
-    background-image:url(https://cdn.openart.ai/stable_diffusion/a0a3d7264f48ec969e83527666d054c308ca4e69_2000x2000.webp);
-    text-align: center;
+    background: thistle;
+    justify-content: center;
     padding: 15px;
     height: 70%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    color: white;
-    /* position: sticky; */
-    /* top: 50px; */
+    color: black;
     margin-top: -5px;
+    font-size: 25px;
 }
 
 
 .green {
-/*     background-color: green; */
-    background-image:url(https://th.bing.com/th/id/OIF.2qowNXTbr63ZT27zoFIEzA?rs=1&pid=ImgDetMain);
+    background-color: antiquewhite;
     padding: 15px;
     height:70%;
     text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    color: white;
-    /* position: sticky; */
-    /* top: 50px; */
+    color: black;
+
 }
 
 .orange {
-    background-image: url(https://www.openaccessgovernment.org/wp-content/uploads/2021/12/dreamstime_m_122402762-696x452.jpg);
+    background: silver;
     padding: 15px;
     height:70%;
     text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* position: sticky; */
-    /* top: 50px; */
     font-weight: 600;
-    color: white;
+    color: black;
 
 }
 
 .grey {
-    background-image: url(https://th.bing.com/th/id/OIP.0IO-nLRTf2aZU-bOxIWN3AHaEc?rs=1&pid=ImgDetMain);
+    background: wheat;
     padding: 15px;
-    /* background-repeat: no-repeat; */
     height:70%;
     text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-    color: white;
-    /* position: sticky; */
-    /* top: 50px; */
+    color: black;
+
 }
