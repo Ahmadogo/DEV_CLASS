@@ -9,25 +9,7 @@ html {
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg);
-}
-
-
-section {
-    height: 100vh;
-    position: relative;
-    top: 55px;
-
-}
-section div{
-    position: sticky;
-    top: 48px;
-    
-}
-a:hover{
-    background-color: brown;
-    padding: 8px;
-    border-radius: 20px;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -37,10 +19,14 @@ a:hover{
     position: fixed;
     top: 0;
     z-index: 1;
-    
+
 }
-fa-solid{
-    padding: 20px;
+
+ul {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+
 }
 
 a {
@@ -49,11 +35,37 @@ a {
     text-decoration: none;
 }
 
-ul {
-    display: flex;
-    gap: 1em;
-    list-style-type: none;
-    justify-content: space-around;
+a:hover {
+    background-color: brown;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+fa-solid {
+    padding: 20px;
+}
+
+
+section {
+    height: 100vh;
+    position: relative;
+    top: 55px;
+
+}
+
+section div {
+    position: sticky;
+    top: 48px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    font-size: 30px;
 }
 
 .blue {
@@ -69,24 +81,29 @@ ul {
     font-size: 25px;
 }
 
+img {
+    width: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
 
 .green {
     background-color: antiquewhite;
     padding: 15px;
-    height:70%;
-    text-align: center;
+    height: 70%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: black;
 
 }
+
 
 .orange {
     background: silver;
     padding: 15px;
-    height:70%;
-    text-align: center;
+    height: 70%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -94,14 +111,42 @@ ul {
 
 }
 
+
 .grey {
     background: wheat;
     padding: 15px;
-    height:70%;
-    text-align: center;
+    height: 70%;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: black;
+
+}
+
+
+@media screen and (max-width:767px) {
+    img {
+        width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        width: 100%;
+    }
+    
+
+}
+
+    @media screen and (min-width:768px) and (max-width:1023px) {
+    
+    img{
+        width: 100%;
+    }
+    section{
+        height: max-content;
+    }
 
 }
