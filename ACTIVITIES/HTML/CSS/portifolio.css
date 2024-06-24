@@ -136,6 +136,9 @@ img {
     h5 {
         width: 100%;
     }
+    section{
+        height: max-content;
+    }
     
 
 }
