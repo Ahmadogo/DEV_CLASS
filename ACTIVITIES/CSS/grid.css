@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    margin: auto;
+    padding: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+}
+.head{
+    padding: 10px 20px;
+    background: rgb(129, 106, 223);
+    color: white;
+}
+.content{
+
+}
