@@ -58,16 +58,25 @@ a:hover {
 
 }
 
-
 section {
     height: 100vh;
     margin: auto;
+    /* position: sticky; */
+    /* top: 0; */
+}
 
+section>div {
+    background: red;
+
+}
+
+.section-container {
+    padding: 100px 0;
 }
 
 .blue {
     background: rgb(130, 142, 142);
-    /* padding: 15px; */
+
     margin: auto;
     height: 100vh;
     display: flex;
@@ -79,6 +88,11 @@ section {
     font-size: 25px;
 }
 
+.blue img{
+    width: 20%;
+    height: auto;
+}
+
 .aboutbtn {
     padding: 10px 55px;
     border-radius: 20px;
@@ -87,21 +101,24 @@ section {
 }
 
 .green {
-    background-color: rgb(57, 65, 67);
+    background: linear-gradient(rgb(57, 65, 67), rgb(102, 107, 110));
     padding: 15px;
+    position: sticky;
+    top: 60px;
     height: 100vh;
     text-align: center;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     color: black;
+    padding: 100px 0;
 
 }
 
 
 .orange {
-    background: rgb(130, 142, 142);
-    /* text-align: center; */
+    background: linear-gradient(rgb(130, 142, 142), rgb(57, 65, 67));
+    position: sticky;
     height: 100vh;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -113,8 +130,9 @@ section {
 
 
 .grey {
-    background: rgb(130, 142, 142);
+    background: linear-gradient(rgb(58, 54, 51), white);
     padding: 15px;
+    position: sticky;
     height: 100vh;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
